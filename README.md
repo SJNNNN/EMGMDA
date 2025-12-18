@@ -1,5 +1,5 @@
 # EMGMDA
-EMGMDA: enhancing miRNA - disease associations prediction with morphology images and multi-view graph learning
+EMGMDA: A multi-modal graph neural framework for robust prediction of miRNA–disease associations
 
 ## Requirements
   * python==3.7
