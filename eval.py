@@ -57,8 +57,8 @@ parser.add_argument("--num_layers", type=int, default=3, help='Number of GAT lay
 parser.add_argument("--input_dropout", type=float, default=0, help='Dropout applied at input layer.')
 parser.add_argument("--layer_dropout", type=float, default=0, help='Dropout applied at hidden layers.')
 parser.add_argument('--random_seed', type=int, default=123, help='random seed')
-parser.add_argument('--early_stopping', type=int, default=200, help='stop')
-parser.add_argument('--dropout', type=float, default=0.2, help='dropout')
+parser.add_argument('--early_stopping', type=int, default=20, help='stop')
+parser.add_argument('--dropout', type=float, default=0.3, help='dropout')
 parser.add_argument('--mlp', type=list, default=[64, 1], help='mlp layers')
 parser.add_argument('--neighbor', type=int, default=20, help='neighbor')
 parser.add_argument('--dataset', default='HMDD v3.2', help='dataset')#HMDD v2.0#resisant_fin
